@@ -1,0 +1,519 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 92px !important;
+    line-height: 102px !important;
+}
+
+h2{
+    font-size: 60px !important;
+    font-weight: 700 !important;
+}
+
+h3{
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    line-height: 60px !important;
+}
+
+.colortext{
+    color: #ff343d;
+}
+
+.promo {
+    height: 1032px;
+    background-image: url(../img/promo/promo_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    height: 10%;
+    padding-top: 64px;
+    padding-left: 200px;
+}
+
+.logo_phone_number{
+    padding-left: 62px;
+    padding-top: 11px;
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.logo_phone_number:hover{
+    color: #3b3b3b;
+    text-decoration: none;
+}
+
+.menu{
+    height: 10%;
+    padding-top: 64px;
+    padding-right: 200px;
+}
+
+.bye_now{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    border-bottom: 1px #ffffff solid;
+    text-transform: uppercase;
+}
+
+.bye_now:hover{
+    color: #92a1a5;
+    border-bottom: 1px #92a1a5 solid;
+    text-decoration: none;
+}
+
+.menu_toggler{
+    padding-left: 38px;
+}
+
+.menu_toggler_icon{
+    padding-top: 4px;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    border-style: none;
+}
+
+.dropdown-menu.show{
+    position: absolute !important;
+    top: 0px !important;
+    left: -80px !important;
+}
+
+.dropdown-item{
+    color: #ffffff;
+    text-align: right;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.promo_title{
+    height: 90%;
+    
+}
+
+.promo_title_item h2{
+    color: #000000;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+
+}
+
+.promo_title_text{
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.fly {
+    height: 614px;
+    
+}
+
+.tap_to_fly {
+    background-image: url(../img/fly/tap_to_fly.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 614px;
+}
+
+.tap_to_fly h2{
+    margin-top: 259px;
+    margin-left: 204px;
+    letter-spacing: 0px;
+    line-height: 60px;
+    padding-bottom: 3px;
+
+}
+
+.tap_to_fly_text{
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 11px;
+    margin-left: 206px;
+}
+
+.fly_higher{
+    background-image: url(../img/fly/fly_higher.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 614px;
+    color: #ffffff;
+}
+
+.fly_higher h2{
+    margin-top: 247px;
+    margin-left: 75px;
+    letter-spacing: 0px;
+    line-height: 72px;
+}
+
+.features {
+    height: 600px;
+    background-color: #ffffff;
+}
+
+
+.features_title{
+    height: 50%;
+}
+
+.features_item{
+    text-align: center;
+    height: 50%;
+}
+
+.features_image{
+    height: 91px;
+}
+
+.features_text{
+    color: #000000;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-decoration: none;
+
+}
+
+.features_item a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.generation {
+    height: 656px;
+}
+
+.generation1{
+    background-image: url(../img/generation/generation1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 656px;
+}
+
+
+
+.generation2{
+    background-image: url(../img/generation/generation2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 656px;
+    color: #ffffff;
+}
+
+.generatin2_item{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.generation_button{
+    width: 182px;
+    height: 57px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 29px;
+    border: 2px solid #3b3b3b;
+    margin-top: 49px;
+}
+
+.generation_button:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.generation_button:focus{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: none;
+}
+
+.drone {
+    height: 870px;
+    background-color: #ffffff;
+}
+
+.drone1{
+    height: 870px;
+}
+
+.drone1_item{
+    margin-left: 200px;
+}
+
+.dron1_item h1{
+    color: #232323;
+    font-weight: 500;
+}
+
+.drone_button{
+    width: 182px;
+    height: 57px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 29px;
+    border: 2px solid #eff2f6;
+    margin-top: 62px;
+}
+
+.drone_button:hover{
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.drone_button:focus{
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: none;
+}
+
+.drone_button:active{
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+
+
+.drone2{
+    height: 870px;
+    
+}
+
+.drone_image{
+    margin-right: -15px;
+}
+
+.journey {
+    height: 1190px;
+    background-image: url(../img/journey/journey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.journey_item{
+    margin-top: 779px;
+    text-align: center;
+}
+
+.journey_item h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.journey_button{
+    width: 182px;
+    height: 57px;
+    color: #318f76;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 29px;
+    border: 2px solid transparent;
+    margin-top: 56px;
+}
+
+.journey_button:hover{
+    color: #318f76;
+    background-color: #3b3b3b;
+    border: solid transparent;
+}
+
+.journey_button:focus{
+    color: #318f76;
+    background-color: #3b3b3b;
+    border: solid transparent;
+    box-shadow: none;
+}
+
+
+
+.footer {
+    height: 540px;
+    background-image: url(../img/footer/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer1{
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer_text{
+    color: #92a1a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 34px;
+}
+
+/* Медиа-запросы на разрешение ≥992px */
+
+@media (max-width: 992px) {
+    .promo {
+        background-image: url(../img/promo/promo_bg2.jpg);
+    }
+
+    .logo{
+        height: 20%;
+        padding-left: 50px;
+    }
+
+    .menu{
+        height: 20%;
+        padding-right: 50px;
+    }
+
+    .promo_title{
+        height: 80%;
+    }
+
+    .fly {
+        height: 1228px;
+        
+    }
+   
+    .features {
+        height: 900px;
+    }
+    .features_title{
+        height: 34%;
+    }
+    
+    .features_item{
+        text-align: center;
+        height: 33%;
+    }
+
+    .generation {
+        height: 1312px;
+    }
+ 
+    .drone{
+        height: 1100px;
+    }
+
+    .drone1{
+        height: 550px;
+    }
+
+    .drone2{
+        height: 550px;
+    }
+}
+
+/* Медиа-запросы на разрешение ≥768px */
+
+
+@media (max-width: 768px) {
+
+.logo{
+    height: 10%;
+    padding-top: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    height: 10%;
+    padding-top: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo_title_item{
+    text-align: center;
+}
+
+.fly_higher{
+    background-image: url(../img/fly/fly_higher2.jpg);
+}
+
+.fly_higher h2 {
+    margin-left: 35px;
+}
+
+.tap_to_fly h2 {
+    margin-top: 205px;
+    margin-left: 140px;
+}
+.tap_to_fly_text {
+    margin-left: 140px;
+}
+
+.features {
+    height: 1400px;
+}
+.features_title{
+    height: 20%;
+}
+
+.features_item{
+    text-align: center;
+    height: 20%;
+}
+
+h1{
+    font-size: 60px !important;
+}
+
+h2{
+    font-size: 48px !important;
+}
+
+h3{
+    font-size: 36px !important;
+}
+}
+
+
+@media (min-width: 768px) {
+
+.fly_higher h2 {
+    margin-left: 75px;
+}
+
+.tap_to_fly h2 {
+    margin-top: 259px;
+    margin-left: 204px;
+}
+.tap_to_fly_text {
+    margin-left: 204px;
+}
+}
